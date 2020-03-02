@@ -1,5 +1,4 @@
-
-  .example-card {
+ .example-card {
     max-width: 25%;
     display: block;
     top: 0px;
@@ -39,6 +38,7 @@
     border: 1px solid #cccccc;
     background-color: white;
   }
-  .example-card:hover {
-    box-shadow: 0 8px 16px 8px rgba(0,0,0,0.2);
+  .title {
+      color: #00838d;
   }
+  

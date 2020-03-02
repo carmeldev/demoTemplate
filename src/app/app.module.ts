@@ -12,6 +12,9 @@ import { MaterialModule } from './material/material.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { FlexLayoutModule } from "@angular/flex-layout";
+import { SigninComponent } from './components/signin/signin.component';
+import { SignupComponent } from './components/signup/signup.component';
+import { DynamicListComponent } from './components/dynamic-list/dynamic-list.component';
 
 
 @NgModule({
@@ -20,7 +23,10 @@ import { FlexLayoutModule } from "@angular/flex-layout";
     HomeComponent,
     ProductcardComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    SigninComponent,
+    SignupComponent,
+    DynamicListComponent
   ],
   imports: [
     BrowserModule,

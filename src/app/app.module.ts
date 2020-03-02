@@ -11,6 +11,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { MaterialModule } from './material/material.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { FlexLayoutModule } from "@angular/flex-layout";
+
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { RouterModule } from '@angular/router';
     BrowserAnimationsModule,
     MaterialModule,
     ReactiveFormsModule,
-    RouterModule
+    RouterModule,
+    FlexLayoutModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

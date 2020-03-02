@@ -1,1 +1,16 @@
-<p>productcard works!</p>
+<mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>{{name1}}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image [src]="img1" [alt]='name1'>
+    <mat-card-content>
+      <p><b>{{type1}}</b></p>
+      <p><b>{{price1}}</b></p>
+      <p><b>{{size1}}</b></p>
+      <p><b>{{offer1}}</b></p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color= 'primary'>{{button1}}</button>
+      <button mat-raised-button color='primary'>{{button2}}</button>
+    </mat-card-actions>
+  </mat-card>

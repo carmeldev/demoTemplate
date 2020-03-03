@@ -16,6 +16,7 @@ import { SigninComponent } from './components/signin/signin.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { DynamicListComponent } from './components/dynamic-list/dynamic-list.component';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
+import { DisplayProductsComponent } from './components/display-products/display-products.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ProductDetailComponent } from './components/product-detail/product-deta
     SigninComponent,
     SignupComponent,
     DynamicListComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    DisplayProductsComponent
   ],
   imports: [
     BrowserModule,

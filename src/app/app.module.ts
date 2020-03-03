@@ -15,6 +15,7 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 import { SigninComponent } from './components/signin/signin.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { DynamicListComponent } from './components/dynamic-list/dynamic-list.component';
+import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { DynamicListComponent } from './components/dynamic-list/dynamic-list.com
     NavbarComponent,
     SigninComponent,
     SignupComponent,
-    DynamicListComponent
+    DynamicListComponent,
+    ProductDetailComponent
   ],
   imports: [
     BrowserModule,

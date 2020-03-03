@@ -1,1 +1,38 @@
-<p>signin works!</p>
+<mat-card  class="auth-card mat-elevation-z4" appLoginCardMargin>
+    <mat-card-content>
+      <img src='http://images.the-house.com/nike-lunar-stefan-janoski-shoes-game-royal-white-15-1.jpg' class="app-logo">
+      <p class="error-message" *ngIf="error">{{errorMessage}}</p>
+      <form [formGroup]="loginForm">
+        <div class="form-container">
+          <mat-form-field>
+            <input matInput type="text" formControlName="email" placeholder="Your email">
+            <mat-error *ngIf="loginForm?.get('email')?.errors?.email">
+              {{ (messages | async)?.INVALID_EMAIL }}
+            </mat-error>
+            <mat-error *ngIf="loginForm?.get('email')?.errors?.required">
+              {{ (messages | async)?.FIELD_REQUIRED }}
+            </mat-error>
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput type="password" formControlName="password" placeholder="Your password">
+            <mat-error *ngIf="loginForm?.get('password').errors?.required">
+              {{ (messages | async)?.FIELD_REQUIRED }}</mat-error>
+          </mat-form-field>
+          <a class="auth-card-text" (click)="forgotPassword()">Forgot Password?</a>
+        </div>
+        <div fxLayoutAlign="center center">
+          <button mat-raised-button class="rounded-corner-btn" color="primary" (click)="signIn()">
+               SIGN IN
+          </button>
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+  
+
+<mat-card class="auth-card">
+    <mat-card-content>
+
+    </mat-card-content>
+
+</mat-card>

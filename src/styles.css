@@ -2,3 +2,25 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.rounded-corner-btn {
+    border-radius: 10em !important;
+    width: 90% !important;
+    height: 45px !important;
+    margin-top: 20% !important;
+  }
+
+  .app-logo {
+    height: 100px;
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+  }
+  .auth-card .form-container {
+    margin-top: 10% !important;
+    width: 100% !important;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }

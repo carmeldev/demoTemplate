@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { productDetails } from '../../data';
 
 @Component({
   selector: 'app-dynamic-list',
@@ -7,10 +8,11 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class DynamicListComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+   }
 
-  @Input() products: any= [];
-  
+  @Input() products: any = [];
+
   ngOnInit(): void {
     console.log(this.products);
   }

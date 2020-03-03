@@ -1,19 +1,17 @@
-<div fxLayout = 'row wrap'>
-    <mat-card class="example-card" *ngFor= 'let i of details'>
-        <mat-card-header>
-            <mat-card-title class='title'>{{i.name}}</mat-card-title>
-        </mat-card-header>
-        <img mat-card-image [src]="i.img" [alt]='i.name'>
-        <mat-card-content>
-            <p><b>{{type }}: </b>{{i.type}}</p>
-            <p><b>{{price }}: </b>{{i.price}}</p>
-            <p><b>{{size }}: </b>{{i.size}}</p>
-            <p><b>{{offer }}: </b>{{i.offer}}</p>
-            <p><b>{{category }}: </b>{{i.category}}</p>
-        </mat-card-content>
-        <mat-card-actions>
-            <button mat-raised-button color='primary'>{{button1}}</button>
-            <button mat-raised-button color='primary'>{{button2}}</button>
-        </mat-card-actions>
-    </mat-card>
-</div>
+<mat-card class="example-card">
+    <mat-card-header>
+        <mat-card-title class='title'>{{singleProduct.name}}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image [src]="singleProduct.img" [alt]='singleProduct.name'>
+    <mat-card-content>
+        <p><b>{{type }}: </b>{{singleProduct.type}}</p>
+        <p><b>{{price }}: </b>{{singleProduct.price}}</p>
+        <p><b>{{size }}: </b>{{singleProduct.size}}</p>
+        <p><b>{{offer }}: </b>{{singleProduct.offer}}</p>
+        <p><b>{{category }}: </b>{{singleProduct.category}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-raised-button color='primary' (click)='singleProductDetails()'>{{button1}}</button>
+        <button mat-raised-button color='primary'>{{button2}}</button>
+    </mat-card-actions>
+</mat-card>

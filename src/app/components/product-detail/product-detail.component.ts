@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { SingleProductService } from 'src/app/services/single-product.service';
 
 @Component({
   selector: 'app-product-detail',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductDetailComponent implements OnInit {
 
-  constructor() { }
+  prodDetail: any;
+  constructor(private singleProdService: SingleProductService) { }
 
   ngOnInit(): void {
+    this.prodDetail = this.singleProdService.getProduct();
+    console.log(' Inside product detail component ' + this.prodDetail);
   }
 
 }

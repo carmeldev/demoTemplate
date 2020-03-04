@@ -4,16 +4,16 @@
         <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
           <mat-icon>menu</mat-icon>
         </button>
-        <span [routerLink]="['']">Centizen Shop</span>
+        <span [routerLink]="['']" style="cursor: pointer;">Centizen Shop</span>
         <span class="menu-spacer"></span>
         <div fxShow="true" fxHide.lt-md>
           <!-- The following menu items will be hidden on both SM and XS screen sizes -->
-          <a href="#" mat-button>T-Shirts</a>
-          <a href="#" mat-button>Shirts</a>
-          <a href="#" mat-button>Shoes</a>
-          <a href="#" mat-button>Kids Wears</a>
-          <a href="#" mat-button>Under Wears</a>
-          <span class="example-spacer">   </span>
+          <a [routerLink]="['/products']" mat-button>T-Shirts</a>
+          <a [routerLink]="['/products']" mat-button>Shirts</a>
+          <a [routerLink]="['/products']" href="#" mat-button>Shoes</a>
+          <a [routerLink]="['/products']" href="#" mat-button>Kids Wears</a>
+          <a [routerLink]="['/products']" href="#" mat-button>Under Wears</a>
+          <span  class="example-spacer">   </span>
           <a [routerLink]="['/signin']" mat-button >SignUp/Login</a>
             
         </div>

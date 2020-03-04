@@ -26,5 +26,6 @@ export class ProductcardComponent implements OnInit {
   singleProductDetails() {
     console.log('func called');
     this.singleProdService.setProduct(this.singleProduct);
+    this.router.navigate(['product-detail']);
   }
 }

@@ -10,7 +10,6 @@ export class SingleProductService {
 
   setProduct(product: any) {
     this.productDetail = product;
-    console.log('inside service' + this.productDetail);
   }
 
   getProduct() {

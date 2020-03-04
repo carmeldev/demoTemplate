@@ -1,4 +1,5 @@
 .auth-card {
+  margin-top: 10% !important;
     width: 330px;
     margin: auto;
   }
@@ -18,7 +19,7 @@
   .auth-card-text {
     font-size: 0.8rem;
     font-weight: 300;
-    color: #15734f;
+    color: #151e73;
     cursor: pointer;
     margin-left: auto;
   }

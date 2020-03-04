@@ -21,4 +21,11 @@ export class SigninComponent implements OnInit {
   ngOnInit(): void {
   }
 
-}
+  signIn() : void {
+
+  }
+
+  forgotPassword() : void {
+    
+  }
+ }

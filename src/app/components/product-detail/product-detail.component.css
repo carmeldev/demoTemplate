@@ -37,11 +37,12 @@ img {
 }
   
 .example-card:hover:before {
-      transform: scale(50);
+      transform: scale(54);
 }
 .example-card:hover > * {
     transition: all 0.3s ease-out;
     color: #ffffff;
 }
+
 
   

@@ -13,8 +13,6 @@ export class ProductcardComponent implements OnInit {
   type = 'Type';
   price = 'Price';
   size = 'Size';
-  offer = 'Offer';
-  category = 'Category';
   button1 = 'Buy';
   button2 = 'Add to Cart';
   constructor(private singleProdService: SingleProductService, private router: Router) {

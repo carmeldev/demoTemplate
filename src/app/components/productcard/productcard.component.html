@@ -2,13 +2,11 @@
     <mat-card-header>
         <mat-card-title class='title'>{{singleProduct.name}}</mat-card-title>
     </mat-card-header>
-    <img mat-card-image [src]="singleProduct.img" [alt]='singleProduct.name'>
+    <img mat-card-image class='img' [src]="singleProduct.img" [alt]='singleProduct.name'>
     <mat-card-content>
         <p><b>{{type }}: </b>{{singleProduct.type}}</p>
         <p><b>{{price }}: </b>{{singleProduct.price}}</p>
         <p><b>{{size }}: </b>{{singleProduct.size}}</p>
-        <p><b>{{offer }}: </b>{{singleProduct.offer}}</p>
-        <p><b>{{category }}: </b>{{singleProduct.category}}</p>
     </mat-card-content>
     <mat-card-actions>
         <button mat-raised-button color='primary' (click)='singleProductDetails()'>{{button1}}</button>

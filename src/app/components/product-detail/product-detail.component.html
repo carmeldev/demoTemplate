@@ -1,6 +1,6 @@
-<div fxLayout="row" fxLayout.lt-md="column">
+<div class='container' fxLayout="row" fxLayout.lt-md="column">
     <div fxFlex=50%>
-        <mat-card class="example-card">
+        <mat-card class="example-card img-card">
             <img mat-card-image [src]="prodDetail.img" [alt]='prodDetail.name'>
         </mat-card>
     </div>
@@ -15,7 +15,12 @@
                 <p><b>{{size }}:</b>{{prodDetail.size}}</p>
                 <p><b>{{offer }}:</b>{{prodDetail.offer}}</p>
                 <p><b>{{category }}:</b>{{prodDetail.category}}</p>
+                <p><b>{{description}}:</b>{{prodDetail.description}}</p>
             </mat-card-content>
+            <mat-card-actions>
+                <button mat-raised-button color='primary'>{{button1}}</button>
+                <button mat-raised-button color='primary'>{{button2}}</button>
+            </mat-card-actions>
         </mat-card>
     </div>
 </div>

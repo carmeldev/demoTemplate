@@ -14,6 +14,9 @@ export class ProductDetailComponent implements OnInit {
   size = 'Size';
   offer = 'Offer';
   category = 'Category';
+  description = 'Description';
+  button1 = 'Buy Now';
+  button2 = 'Add to Cart';
   constructor(private singleProdService: SingleProductService) { }
 
   ngOnInit(): void {

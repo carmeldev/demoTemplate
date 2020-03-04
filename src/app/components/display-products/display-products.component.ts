@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { productDetails } from 'src/app/data';
 
 @Component({
   selector: 'app-display-products',
@@ -7,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DisplayProductsComponent implements OnInit {
 
-  constructor() { }
-
+  productLists: any = [];
+  constructor() {
+    this.productLists = productDetails;
+  }
   ngOnInit(): void {
   }
 

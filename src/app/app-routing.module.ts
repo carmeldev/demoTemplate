@@ -4,13 +4,15 @@ import { SigninComponent } from './components/signin/signin.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
+import { DisplayProductsComponent } from './components/display-products/display-products.component';
 
 
 const routes: Routes = [
+  { path:'', component: HomeComponent }, 
   { path:'signin', component: SigninComponent }, 
   { path:'signup', component: SignupComponent }, 
-  { path:'', component: HomeComponent }, 
-  { path: 'product-detail', component: ProductDetailComponent}
+  { path: 'product-detail', component: ProductDetailComponent},
+  { path: 'products', component: DisplayProductsComponent}
 
 ];
 

@@ -22,6 +22,8 @@ import { DynamicCardComponent } from './components/dynamic-card/dynamic-card.com
 import { DynamicNavbarComponent } from './components/dynamic-navbar/dynamic-navbar.component';
 import { DynamicCarouselComponent } from './components/dynamic-carousel/dynamic-carousel.component';
 
+import { MatCarouselModule } from '@ngmodule/material-carousel';
+
 
 @NgModule({
   declarations: [
@@ -47,7 +49,8 @@ import { DynamicCarouselComponent } from './components/dynamic-carousel/dynamic-
     MaterialModule,
     ReactiveFormsModule,
     RouterModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatCarouselModule
   
   ],
   providers: [],

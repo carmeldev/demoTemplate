@@ -1,1 +1,39 @@
-<p>dynamic-navbar works!</p>
+
+<!-- <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown + 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div> 
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" (click)="myFunction()">&#9776;</a>
+  </div> -->
+
+  <div class="topnav" id="myTopnav">
+    <ng-container *ngFor="let nav of navBarData">
+        <div *ngIf="nav.dropDown; else elseBlock">
+            <div class="dropdown">
+                <button class="dropbtn">{{nav.heading}} + 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div *ngFor="let i of nav.dropDown" >
+                        <a  href="#">{{i.heading}}</a>
+                    </div>
+                </div>
+              </div> 
+        </div>
+        <ng-template #elseBlock>
+            <a href="#home" class="">{{nav.heading}}</a>
+        </ng-template>
+    </ng-container>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" (click)="myFunction()">&#9776;</a>
+  </div>

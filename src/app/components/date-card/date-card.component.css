@@ -1,0 +1,21 @@
+.main {
+    padding: 25px;
+}
+.example-card {
+    max-width: 25%;
+    width: 300px;
+    display: block;
+    background-color: rgb(236, 232, 234);
+}
+.example-card img {
+    height:200px;
+}
+.button1 {
+    color: orange;
+    border: 3px solid orange;
+  }
+  
+  .button1:hover {
+    background-color: orange;
+    color: white;
+  }

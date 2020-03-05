@@ -5,14 +5,16 @@ import { SignupComponent } from './components/signup/signup.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 import { DisplayProductsComponent } from './components/display-products/display-products.component';
+import { DynamicCardComponent } from './components/dynamic-card/dynamic-card.component';
 
 
 const routes: Routes = [
-  { path:'', component: HomeComponent }, 
+  { path:'', component: HomeComponent },
   { path:'signin', component: SigninComponent }, 
   { path:'signup', component: SignupComponent }, 
   { path: 'product-detail', component: ProductDetailComponent},
-  { path: 'products', component: DisplayProductsComponent}
+  { path: 'products', component: DisplayProductsComponent},
+  { path: 'dynamic-card', component: DynamicCardComponent}
 
 ];
 

@@ -13,7 +13,9 @@ export const productDetails = [{
   offer: '50%',
   category: 'Men',
   // tslint:disable-next-line: max-line-length
-  description: 'Special Technologies: Mens Nike SB Zoom Stefan Janoski Canvas Skateboarding Shoe LOW-PROFILE COMFORT. Mens Nike SB Zoom Stefan Janoski Canvas Skateboarding Shoe has a low-profile silhouette that delivers breathability, grip and responsive cushioning without sacrificing boardfeel. Streamlined canvas upper provides breathability. Zoom Air unit in the sockliner delivers responsive cushioning. Rubber outsole with herringbone tread pattern offers superior grip.'
+  description: 'Special Technologies: Mens Nike SB Zoom Stefan Janoski Canvas Skateboarding Shoe LOW-PROFILE COMFORT. Mens Nike SB Zoom Stefan Janoski Canvas Skateboarding Shoe has a low-profile silhouette that delivers breathability, grip and responsive cushioning without sacrificing boardfeel. Streamlined canvas upper provides breathability. Zoom Air unit in the sockliner delivers responsive cushioning. Rubber outsole with herringbone tread pattern offers superior grip.',
+  // tslint:disable-next-line: max-line-length
+  short_desc: 'A shoe is an item of footwear intended to protect and comfort the human foot. Shoes are also used as an item of decoration and fashion.'
 },
 {
   img: '../../../assets/nike_ladies_pink_shoes.JPG',
@@ -24,7 +26,9 @@ export const productDetails = [{
   offer: '30%',
   category: 'Women',
   // tslint:disable-next-line: max-line-length
-  description: 'Be it a party, a formal event or a casual occasion that you are dressing up for, it is very important to team your outfit with the right pair of winter shoes for women in order to be dressed for the occasion'
+  description: 'Be it a party, a formal event or a casual occasion that you are dressing up for, it is very important to team your outfit with the right pair of winter shoes for women in order to be dressed for the occasion',
+  // tslint:disable-next-line: max-line-length
+  short_desc: 'A shoe is an item of footwear intended to protect and comfort the human foot. Shoes are also used as an item of decoration and fashion.'
 },
 {
   img: '../../../assets/silver sandal.jpg',
@@ -35,7 +39,9 @@ export const productDetails = [{
   offer: '20%',
   category: 'Kids',
   // tslint:disable-next-line: max-line-length
-  description: 'Womens mid heel wedge shoes ladies diamante evening sparkly strappy sandals size. add a little bit of sparkle to your step with our wedge heel sandals. fasten around the ankle with an adjustable ankle strap and buckle closure. featuring high shine diamante detailing on the toe strap. perfect for parties, weddings, bridal, prom, evenings & more'
+  description: 'Womens mid heel wedge shoes ladies diamante evening sparkly strappy sandals size. add a little bit of sparkle to your step with our wedge heel sandals. fasten around the ankle with an adjustable ankle strap and buckle closure. featuring high shine diamante detailing on the toe strap. perfect for parties, weddings, bridal, prom, evenings & more',
+  // tslint:disable-next-line: max-line-length
+  short_desc: 'A shoe is an item of footwear intended to protect and comfort the human foot. Shoes are also used as an item of decoration and fashion.'
 },
 {
   img: '../../../assets/leather-red-high-heel-shoes.jpg',
@@ -46,7 +52,9 @@ export const productDetails = [{
   offer: '35%',
   category: 'Women',
   // tslint:disable-next-line: max-line-length
-  description: 'HIGH HEELS FOR A FASHION HIGH It is a well-known fact that the best way to look attractive and to raise a woman’s glamour quotient is a pair of high heels. High heels are a quintessential part of every woman’s shoe closet.'
+  description: 'HIGH HEELS FOR A FASHION HIGH It is a well-known fact that the best way to look attractive and to raise a woman’s glamour quotient is a pair of high heels. High heels are a quintessential part of every woman’s shoe closet.',
+  // tslint:disable-next-line: max-line-length
+  short_desc: 'A shoe is an item of footwear intended to protect and comfort the human foot. Shoes are also used as an item of decoration and fashion.'
 },
 {
   // tslint:disable-next-line: max-line-length
@@ -58,5 +66,7 @@ export const productDetails = [{
   offer: '20%',
   category: 'Women',
   // tslint:disable-next-line: max-line-length
-  description: 'Winter in the city wouldn’t be complete without a pair of boots that provide comfort and warmth, waterproof protection, and of course, style. The Silversun Lace Waterproof Boots doesn’t just check off your requirements - it redefines them.'
+  description: 'Winter in the city wouldn’t be complete without a pair of boots that provide comfort and warmth, waterproof protection, and of course, style. The Silversun Lace Waterproof Boots doesn’t just check off your requirements - it redefines them.',
+  // tslint:disable-next-line: max-line-length
+  short_desc: 'A shoe is an item of footwear intended to protect and comfort the human foot. Shoes are also used as an item of decoration and fashion.'
 }];

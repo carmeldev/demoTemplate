@@ -13,6 +13,7 @@
           <a href="#" mat-button>Shoes</a>
           <a href="#" mat-button>Kids Wears</a>
           <a href="#" mat-button>Under Wears</a>
+          <a [routerLink]="['dynamic-card']" mat-button>SHOP</a>
           <span class="example-spacer"></span>
           <a [routerLink]="['/signin']" mat-button >SignUp/Login</a>
             
@@ -28,7 +29,8 @@
           <a href="#" mat-list-item>Shirts</a>
           <a href="#" mat-list-item>Shoes</a>
           <a href="#" mat-list-item>Kids Wears</a>
-          <a href="#" mat-button>Under Wears</a>
+          <a href="#" mat-list-item>Under Wears</a>
+          <a [routerLink]="['dynamic-card']" mat-list-item>SHOP</a>
         </mat-nav-list>
       </mat-sidenav>
       <mat-sidenav-content fxFlexFill><router-outlet></router-outlet> 

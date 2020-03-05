@@ -1,0 +1,9 @@
+.main {
+    padding: 25px;
+}
+.example-card {
+    display: block;
+}
+.example-card img {
+    height:200px;
+}

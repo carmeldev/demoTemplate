@@ -17,6 +17,10 @@ import { SignupComponent } from './components/signup/signup.component';
 import { DynamicListComponent } from './components/dynamic-list/dynamic-list.component';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 import { DisplayProductsComponent } from './components/display-products/display-products.component';
+import { DateCardComponent } from './components/date-card/date-card.component';
+import { DynamicCardComponent } from './components/dynamic-card/dynamic-card.component';
+import { DynamicNavbarComponent } from './components/dynamic-navbar/dynamic-navbar.component';
+import { DynamicCarouselComponent } from './components/dynamic-carousel/dynamic-carousel.component';
 
 
 @NgModule({
@@ -30,7 +34,11 @@ import { DisplayProductsComponent } from './components/display-products/display-
     SignupComponent,
     DynamicListComponent,
     ProductDetailComponent,
-    DisplayProductsComponent
+    DisplayProductsComponent,
+    DateCardComponent,
+    DynamicCardComponent,
+    DynamicNavbarComponent,
+    DynamicCarouselComponent
   ],
   imports: [
     BrowserModule,

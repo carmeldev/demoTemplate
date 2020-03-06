@@ -23,6 +23,7 @@ import { DynamicNavbarComponent } from './components/dynamic-navbar/dynamic-navb
 import { DynamicCarouselComponent } from './components/dynamic-carousel/dynamic-carousel.component';
 
 import { MatCarouselModule } from '@ngmodule/material-carousel';
+import { LinkCardComponent } from './components/link-card/link-card.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { MatCarouselModule } from '@ngmodule/material-carousel';
     DateCardComponent,
     DynamicCardComponent,
     DynamicNavbarComponent,
-    DynamicCarouselComponent
+    DynamicCarouselComponent,
+    LinkCardComponent
   ],
   imports: [
     BrowserModule,

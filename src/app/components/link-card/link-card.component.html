@@ -1,0 +1,12 @@
+<div fxLayout="wrap row" fxLayout.xs="column" fxLayout.sm="column" fxLayoutAlign="space-around"  >
+    <mat-card class="profile-pic"  *ngFor="let product of products">
+        <a href={{product.url}}>
+            <img class='img' mat-card-image src={{product.img}} >
+            <div class="edit">
+                <img src="../../../assets/instagram.png">  
+                    {{product.name}} 
+            </div>    
+        </a>
+    </mat-card>
+</div>
+

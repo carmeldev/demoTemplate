@@ -74,3 +74,21 @@ export const dynamicCardDetail = [
   {img: '../../../assets/Mens wear.jpg', alt: 'Mens wear image', flag: 1, type: 'MEN'},
 {img: '../../../assets/womens wear.jpg', alt: 'Womens wear image', flag: 2, type: 'WOMEN'},
 {img: '../../../assets/kids wear.jpg', alt: 'Kids wear image', flag: 1, type: 'KIDS'}];
+
+export const trendingProductDetails = [
+  { img : "../../../assets/womenWesternDress.jpg",
+    name : "New Trends Women Dress" ,
+    url : "https://www.myntra.com/women-clothing"},
+  { img : "../../../assets/menDress.jpg" ,
+    name : "New Trends Men Dress",
+    url :"https://www.myntra.com/men-clothing" },
+  { img : "../../../assets/womenShoes.jpg",
+    name : "Fashion Women Shoes " ,
+    url : "https://www.flipkart.com/womens-footwear/pr?sid=osp,iko"},
+  { img : "../../../assets/menShoes.jpg",
+    name : "Fashion Men Shoes",
+    url : "https://www.myntra.com/men-shoes" },
+  { img : "../../../assets/jewellery.jpg",
+    name : "New Trending Jewellery",
+    url : "https://www.myntra.com/women-jewellery" }
+]

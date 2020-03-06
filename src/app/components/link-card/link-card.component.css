@@ -1,0 +1,31 @@
+.img{
+  width: 250px;
+  height: 200px;
+}
+
+.profile-pic:hover .edit {
+  display: block; 
+}
+
+.profile-pic:hover .img {
+  opacity: 0.3;
+}
+
+.edit {
+  align-content: center;
+  position: absolute;
+	right: 0;
+	top: 0;
+  display: none;
+  color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.profile-pic {
+  max-width: 250px;
+  max-height: 400px;
+  display: inline-block;     
+}

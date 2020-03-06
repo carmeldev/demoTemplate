@@ -9,9 +9,9 @@ import { DynamicCardComponent } from './components/dynamic-card/dynamic-card.com
 
 
 const routes: Routes = [
-  { path:'', component: HomeComponent },
-  { path:'signin', component: SigninComponent }, 
-  { path:'signup', component: SignupComponent }, 
+  { path: '', component: HomeComponent },
+  { path: 'signin', component: SigninComponent },
+  { path: 'signup', component: SignupComponent },
   { path: 'product-detail', component: ProductDetailComponent},
   { path: 'products', component: DisplayProductsComponent},
   { path: 'dynamic-card', component: DynamicCardComponent}

@@ -1,14 +1,36 @@
-<div class='main'fxLayout="column" fxLayoutAlign="space-around">
-    <mat-card class='example-card'>
-        <!-- <a [routerLink]="['product-detail']"><img mat-card-image [src]='product.img' [alt]='product.name'></a>
-        <mat-card-header>
-            <mat-card-title class='title'>{{product.name}}</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-            {{product.short_desc}}
-        </mat-card-content>
-        <mat-card-actions>
-            <button mat-button class='button1' (click)='singleProductDetails(product)'>{{button1}}</button>
-        </mat-card-actions> -->
-    </mat-card>
-</div>
+<div class='main' fxLayout="column" *ngFor='let i of detail'>
+        <mat-card *ngIf='i.flag===1' class='example-card' fxLayout='row' fxLayout.lt-md="column">
+            <div fxFlex=50% fxLayoutAlign="space-around" class='image'>
+                <img mat-card-image [src]='i.img' alt='i.alt'>
+            </div>
+            <mat-card-content class='content' fxFlex=50%>
+                <p>ALL ABOUT {{i.type}}</p>
+                <li>Shoes transform your body language and attitude. They lift you physically and emotionally.</li>
+                <br>
+                <li>Fashion is what you adopt when you don’t know who you are.</li>
+                <br>
+                <li>Being perfectly well-dressed gives one a tranquillity that no religion can bestow.</li>
+                <br>
+                <li>If you’re asking someone for money wear a tie.</li>
+                <br>
+                <li>Fashion is what you’re offered four times a year by designers. And style is what you choose.</li>
+            </mat-card-content>
+        </mat-card>
+        <mat-card *ngIf='i.flag===2' class='example-card' fxLayout='row' fxLayout.lt-md="column">
+            <mat-card-content class='content' fxFlex=50%>
+                <p>ALL ABOUT {{i.type}}</p>
+                <li>Shoes transform your body language and attitude. They lift you physically and emotionally.</li>
+                <br>
+                <li>Fashion is what you adopt when you don’t know who you are.</li>
+                <br>
+                <li>Being perfectly well-dressed gives one a tranquillity that no religion can bestow.</li>
+                <br>
+                <li>If you’re asking someone for money wear a tie.</li>
+                <br>
+                <li>Fashion is what you’re offered four times a year by designers. And style is what you choose.</li>
+            </mat-card-content>
+            <div fxFlex=50% fxLayoutAlign="space-around" class='image'>
+                <img mat-card-image [src]='i.img' [alt]='i.alt'>
+            </div>
+        </mat-card>
+    </div>

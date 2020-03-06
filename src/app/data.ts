@@ -70,3 +70,7 @@ export const productDetails = [{
   // tslint:disable-next-line: max-line-length
   short_desc: 'A shoe is an item of footwear intended to protect and comfort the human foot. Shoes are also used as an item of decoration and fashion.'
 }];
+export const dynamicCardDetail = [
+  {img: '../../../assets/Mens wear.jpg', alt: 'Mens wear image', flag: 1, type: 'MEN'},
+{img: '../../../assets/womens wear.jpg', alt: 'Womens wear image', flag: 2, type: 'WOMEN'},
+{img: '../../../assets/kids wear.jpg', alt: 'Kids wear image', flag: 1, type: 'KIDS'}];

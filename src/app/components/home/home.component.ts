@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { productDetails,trendingProductDetails} from '../../data';
+import { productDetails, trendingProductDetails} from '../../data';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',

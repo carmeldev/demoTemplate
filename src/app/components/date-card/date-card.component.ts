@@ -20,7 +20,6 @@ export class DateCardComponent implements OnInit {
   }
 
   singleProductDetails(product) {
-    console.log('func called');
     this.singleProdService.setProduct(product);
     this.router.navigate(['product-detail']);
   }

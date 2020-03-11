@@ -1,15 +1,15 @@
-<mat-card class="example-card">
+<mat-card class="example-card" (click)='singleProductDetails()'>
     <mat-card-header>
         <mat-card-title class='title'>{{singleProduct.name}}</mat-card-title>
     </mat-card-header>
     <img mat-card-image class='img' [src]="singleProduct.img" [alt]='singleProduct.name'>
     <mat-card-content>
         <p><b>{{type }}: </b>{{singleProduct.type}}</p>
-        <p><b>{{price }}: </b>{{singleProduct.price}}</p>
+        <p><b>{{price }}: </b>$ {{singleProduct.price}}</p>
         <p><b>{{size }}: </b>{{singleProduct.size}}</p>
     </mat-card-content>
     <mat-card-actions>
         <button mat-raised-button color='primary' (click)='singleProductDetails()'>{{button1}}</button>
-        <button mat-raised-button color='primary'>{{button2}}</button>
+        <button mat-raised-button color='primary'(click)='addToCart()'>{{button2}}</button>
     </mat-card-actions>
 </mat-card>

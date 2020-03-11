@@ -15,6 +15,9 @@ export class ProductcardComponent implements OnInit {
   size = 'Size';
   button1 = 'Buy';
   button2 = 'Add to Cart';
+  flag = 0;
+  productArray = JSON.parse(localStorage.getItem('products'));
+  // productArray = [];
   constructor(private singleProdService: SingleProductService, private router: Router) {
   }
 
@@ -22,8 +25,20 @@ export class ProductcardComponent implements OnInit {
   }
 
   singleProductDetails() {
-    console.log('func called');
     this.singleProdService.setProduct(this.singleProduct);
     this.router.navigate(['product-detail']);
+  }
+
+  addToCart() {
+    this.productArray.forEach(element => {
+      if (element.name === this.singleProduct.name) {
+        this.flag = 1;
+      }
+    });
+    if (this.flag === 0) {
+      this.productArray.push(this.singleProduct);
+      localStorage.setItem('products', JSON.stringify(this.productArray));
+    }
+    this.router.navigate(['add-cart']);
   }
 }

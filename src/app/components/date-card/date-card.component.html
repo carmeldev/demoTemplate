@@ -1,6 +1,6 @@
 <div class='main'fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="40px"fxLayoutAlign="space-around">
     <mat-card class='example-card'*ngFor='let product of products'>
-        <a [routerLink]="['product-detail']"><img mat-card-image [src]='product.img' [alt]='product.name'></a>
+        <a (click)='singleProductDetails(product)'><img mat-card-image [src]='product.img' [alt]='product.name'></a>
         <mat-card-header>
             <mat-card-title class='title'>{{product.name}}</mat-card-title>
         </mat-card-header>

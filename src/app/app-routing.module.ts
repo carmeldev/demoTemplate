@@ -6,6 +6,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 import { DisplayProductsComponent } from './components/display-products/display-products.component';
 import { DynamicCardComponent } from './components/dynamic-card/dynamic-card.component';
+import { AddCartComponent } from './components/add-cart/add-cart.component';
 
 
 const routes: Routes = [
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path: 'signup', component: SignupComponent },
   { path: 'product-detail', component: ProductDetailComponent},
   { path: 'products', component: DisplayProductsComponent},
-  { path: 'dynamic-card', component: DynamicCardComponent}
+  { path: 'dynamic-card', component: DynamicCardComponent},
+  { path: 'add-cart', component: AddCartComponent}
 
 ];
 

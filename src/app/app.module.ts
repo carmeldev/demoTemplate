@@ -9,9 +9,9 @@ import { ProductcardComponent } from './components/productcard/productcard.compo
 import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MaterialModule } from './material/material.module';
-import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { FlexLayoutModule } from "@angular/flex-layout";
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { SigninComponent } from './components/signin/signin.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { DynamicListComponent } from './components/dynamic-list/dynamic-list.component';
@@ -50,10 +50,10 @@ import { LinkCardComponent } from './components/link-card/link-card.component';
     BrowserAnimationsModule,
     MaterialModule,
     ReactiveFormsModule,
+    FormsModule,
     RouterModule,
     FlexLayoutModule,
     MatCarouselModule
-  
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,25 @@
+<div class='main' fxLayout="column" *ngFor='let prodDetail of productArray'>
+
+    <mat-card fxLayout="row" fxLayout.lt-md="column">
+        <div fxFlex=33.33%>
+            <img class='main-img' mat-card-image [src]='prodDetail.img' [alt]='prodDetail.name'>
+        </div>
+        <div fxFlex=33.33%>
+            <p class='name'>{{prodDetail.name}}</p>
+            <br>
+            <p><b>{{price }}: </b>$ {{prodDetail.price}}</p>
+            <p><b>{{size }}: </b>{{prodDetail.size}}</p>
+        </div>
+        <div fxFlex=33.33%>
+            <div>
+                <img class='plus-minus' src='../../../assets/plus image.jpg'(click)='value=value+1' alt='plus'>
+                <b>{{quantity}}: </b>
+                <input matinput type ='number' [(ngModel)] = value>
+                <img class='plus-minus' src='../../../assets/minus image.jpg'(click)='value=value-1' alt='minus'>
+            </div>
+            <br>
+            <p><b>{{shipping }}: </b>{{shippingValue}}</p>
+            <p><b>{{total }}: </b>$ {{prodDetail.price*value}}</p>
+        </div>
+    </mat-card>
+</div>

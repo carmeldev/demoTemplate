@@ -1,0 +1,20 @@
+.main {
+    padding:40px 120px;
+}
+mat-card > div {
+padding: 10px;
+}
+.main-img {
+    height: 100%;
+    width: 100%;
+    max-width:250px;
+    max-height:250px; 
+ }
+.name {
+    font-size:20px;
+    font-weight: bolder;
+}
+.plus-minus {
+    width:25px;
+    height:25px;
+}

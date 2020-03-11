@@ -16,7 +16,7 @@
           <a [routerLink]="['dynamic-card']" mat-button>SHOP</a>
           <span class="example-spacer"></span>
           <a [routerLink]="['/signin']" mat-button >SignUp/Login</a>
-            
+          <a [routerLink]="['add-cart']" mat-button><mat-icon>shopping_cart</mat-icon></a>
         </div>
       </mat-toolbar-row>
     </mat-toolbar>
@@ -31,6 +31,7 @@
           <a href="#" mat-list-item>Kids Wears</a>
           <a href="#" mat-list-item>Under Wears</a>
           <a [routerLink]="['dynamic-card']" mat-list-item>SHOP</a>
+          <a [routerLink]="['add-cart']" mat-list-item><mat-icon>shopping_cart</mat-icon></a>
         </mat-nav-list>
       </mat-sidenav>
       <mat-sidenav-content fxFlexFill><router-outlet></router-outlet> 

@@ -1,0 +1,9 @@
+.title {
+    color: brown;
+}
+.container{
+    padding: 50px;
+}
+.line{
+    border-right: black 300px;
+}

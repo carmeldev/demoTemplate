@@ -92,3 +92,12 @@ export const trendingProductDetails = [
     name : 'New Trending Jewellery',
     url : 'https://www.myntra.com/women-jewellery' }
 ];
+
+export const gridImageDetails =  [
+  { img : "../../../assets/womenWesternDress.jpg"},
+  { img : "../../../assets/menDress.jpg" },
+  { img : "../../../assets/womenShoes.jpg"},
+  { img : "../../../assets/menShoes.jpg" },
+  { img : "../../../assets/jewellery.jpg" },
+  { img : "../../../assets/menShoes.jpg" },
+]

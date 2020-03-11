@@ -1,0 +1,12 @@
+.container{
+    max-width: 300px;
+    max-height: 300px;    
+}
+
+.grid{
+    /* CSS-Grid Properties */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-flow: row;  
+}

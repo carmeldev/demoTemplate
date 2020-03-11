@@ -25,6 +25,8 @@ import { DynamicCarouselComponent } from './components/dynamic-carousel/dynamic-
 import { MatCarouselModule } from '@ngmodule/material-carousel';
 import { LinkCardComponent } from './components/link-card/link-card.component';
 import { AddCartComponent } from './components/add-cart/add-cart.component';
+import { DynamicImageComponent } from './components/dynamic-image/dynamic-image.component';
+import { ExpansionPanelComponent } from './components/expansion-panel/expansion-panel.component';
 
 
 @NgModule({
@@ -44,7 +46,9 @@ import { AddCartComponent } from './components/add-cart/add-cart.component';
     DynamicNavbarComponent,
     DynamicCarouselComponent,
     LinkCardComponent,
-    AddCartComponent
+    AddCartComponent,
+    DynamicImageComponent,
+    ExpansionPanelComponent
   ],
   imports: [
     BrowserModule,

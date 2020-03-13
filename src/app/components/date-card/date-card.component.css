@@ -19,3 +19,15 @@
     background-color: orange;
     color: white;
   }
+
+  @media only screen and (max-width: 600px) {
+    .example-card {
+        max-width: 95%;
+        width: 95%;
+        display: block;
+        background-color: rgb(236, 232, 234);
+    }
+    .main {
+        padding-left: 1%;
+    }
+  }

@@ -6,7 +6,7 @@
 .grid{
     /* CSS-Grid Properties */
     display: grid;
-    gap: 10px;
+    gap: 0px;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-flow: row;  
 }

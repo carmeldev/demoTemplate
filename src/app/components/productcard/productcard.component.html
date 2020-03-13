@@ -4,9 +4,9 @@
     </mat-card-header>
     <img mat-card-image class='img' [src]="singleProduct.img" [alt]='singleProduct.name'>
     <mat-card-content>
-        <p><b>{{type }}: </b>{{singleProduct.type}}</p>
-        <p><b>{{price }}: </b>$ {{singleProduct.price}}</p>
-        <p><b>{{size }}: </b>{{singleProduct.size}}</p>
+        <span><b>{{type }}: </b>{{singleProduct.type}}</span>
+        <span style="float: right;"><b>{{price }}: </b>$ {{singleProduct.price}}</span><br>
+        <span><b>{{size }}: </b>{{singleProduct.size}}</span>
     </mat-card-content>
     <mat-card-actions>
         <button mat-raised-button color='primary' (click)='singleProductDetails()'>{{button1}}</button>
